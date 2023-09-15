@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class checkRecycleCoin : MonoBehaviour
+public class CheckRecycleCoin : MonoBehaviour
 {
     public Queue<CoinController> recycleCoinQueue;
 

@@ -105,6 +105,14 @@ PrefabInstance:
       propertyPath: m_TagString
       value: coin
       objectReference: {fileID: 0}
+    - target: {fileID: 4643367596119780651, guid: 2e29b5f7260e54cff87b9a900baf512e, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4643367596119780651, guid: 2e29b5f7260e54cff87b9a900baf512e, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9ea7575d432344fa7b5ae569434864d5, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
