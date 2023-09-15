@@ -53,9 +53,10 @@ public class ThrowCoinScript : MonoBehaviour
                 {
                     for (var i=0;i<onePushSpawn-1;++i)
                     {
-                        _coin=CreateCoin.instance.Launch(fixWorldPos);
-                        _coin.gameObject.SetActive(true);
-                        _coin.transform.rotation=Quaternion.Euler(Random.Range(0,70),Random.Range(0,30),Random.Range(0,70));
+                        // _coin=CreateCoin.instance.Launch(fixWorldPos);
+                        // _coin.gameObject.SetActive(true);
+                        // _coin.transform.rotation=Quaternion.Euler(Random.Range(0,70),Random.Range(0,30),Random.Range(0,70));
+                        ClickTestCoinAdd();
                     }
                 }
                 
