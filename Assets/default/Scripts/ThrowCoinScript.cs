@@ -77,7 +77,7 @@ public class ThrowCoinScript : MonoBehaviour
         for (var i=0;i<onePushSpawn-1;++i)
         {
             //3.5~-1.8
-            float _randPositionY=Random.Range(0,6);
+            float _randPositionY=Random.Range(5,7);
             float _randPositionX=Random.Range(-2,3);
             float _randAddPositionZ=Random.Range(-4,4);
             Vector3 _addCoinPosition=new Vector3(_randPositionX,_randPositionY,centerStage.transform.position.z+_randAddPositionZ);  
