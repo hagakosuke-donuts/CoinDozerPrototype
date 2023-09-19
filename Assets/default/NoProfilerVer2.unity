@@ -555,7 +555,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 855789752}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -564,7 +564,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 325.82, y: 340.18}
+  m_AnchoredPosition: {x: 298, y: 340}
   m_SizeDelta: {x: 201.6, y: 111.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &855789755
@@ -827,7 +827,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0.13734528, y: -0.6975506, z: 0.13897294, w: 0.6893809}
-  m_LocalPosition: {x: 18.9, y: 12.3, z: 0.2}
+  m_LocalPosition: {x: 22.4, y: 13.75, z: 0.24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1211,6 +1211,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70e9d2daf4a4c4cc8a81adb031734fe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  guiRectX: 150
+  guiRectY: 450
+  guiRectWidth: 250
+  guiRectHeight: 80
 --- !u!1 &1464326295
 GameObject:
   m_ObjectHideFlags: 0
@@ -2921,7 +2925,7 @@ Transform:
   m_GameObject: {fileID: 85688948942109657}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0, z: 0.29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
