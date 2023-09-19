@@ -15,6 +15,7 @@ public class checkCPUdata : MonoBehaviour
     {
         
     }
+    
 
     // Update is called once per frame
     void Update()
